@@ -5,7 +5,7 @@ from streamlit_lottie import st_lottie
 from streamlit_option_menu import option_menu
 
 # Add authentication
-add_auth(required=True)
+add_auth(required=True, redirect_url="https://multi-kilickursat.streamlit.app/")
 
 # Buy Me a Coffee link
 bmac_link = "https://www.buymeacoffee.com/kursatkilic"  # Replace with your actual link
